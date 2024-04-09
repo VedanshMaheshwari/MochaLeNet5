@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class MNISTReader {
     public static void main(String[] args) throws IOException {
-        String filePath = "C:/Users/apoor/Downloads/MNIST/train-images.idx3-ubyte"; // Replace this with your file path
+        String filePath = "out/dataset/train-images.idx3-ubyte"; // Replace this with your file path
 
         try (DataInputStream dis = new DataInputStream(new FileInputStream(filePath))) {
             // Read magic number
